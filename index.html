@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>World Explorer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="header-inner">
+
+        <div class="logo">
+            <div class="logo-icon">🌍</div>
+
+            <div>
+                <h1>World Explorer</h1>
+                <p>Explore • Discover • Learn</p>
+            </div>
+        </div>
+
+        <div class="header-buttons">
+            <button class="icon-btn" id="randomTop">🎲</button>
+            <button class="icon-btn" id="favoritesTop">⭐</button>
+        </div>
+
+    </div>
+</header>
+
+<main>
+
+<section class="hero">
+
+    <h2>Explore the World</h2>
+
+    <p>
+        Discover countries, capitals, people, geography,
+        languages, currencies and fascinating facts.
+    </p>
+
+    <div class="search-box">
+        <span>🔎</span>
+
+        <input
+            id="search"
+            type="text"
+            placeholder="Search country or capital..."
+        >
+
+        <button id="searchBtn">Search</button>
+    </div>
+
+</section>
+
+<div class="quick-actions">
+
+    <button class="action" id="randomBtn">
+        🎲 Random Country
+    </button>
+
+    <button class="action" id="allBtn">
+        🌎 All Countries
+    </button>
+
+    <button class="action" id="favoritesBtn">
+        ⭐ Favorites
+    </button>
+
+</div>
+
+<section>
+
+    <div class="section-title">
+        <h3>Explore by Continent</h3>
+        <span id="resultText"></span>
+    </div>
+
+    <div class="continents">
+
+        <button class="continent" data-continent="Asia">
+            <span>🌏</span>
+            Asia
+        </button>
+
+        <button class="continent" data-continent="Europe">
+            <span>🌍</span>
+            Europe
+        </button>
+
+        <button class="continent" data-continent="Africa">
+            <span>🌍</span>
+            Africa
+        </button>
+
+        <button class="continent" data-continent="North America">
+            <span>🌎</span>
+            North America
+        </button>
+
+        <button class="continent" data-continent="South America">
+            <span>🌎</span>
+            South America
+        </button>
+
+        <button class="continent" data-continent="Oceania">
+            <span>🌊</span>
+            Oceania
+        </button>
+
+        <button class="continent" data-continent="Antarctica">
+            <span>🧊</span>
+            Antarctica
+        </button>
+
+    </div>
+
+</section>
+
+<section>
+
+    <div class="section-title">
+        <h3 id="countriesTitle">Countries</h3>
+        <span id="count"></span>
+    </div>
+
+    <div class="country-grid" id="countryGrid"></div>
+
+    <div class="empty" id="empty">
+        <h3>No countries found</h3>
+        <p>Try another search.</p>
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- COUNTRY DETAILS -->
+
+<div class="modal" id="detailsModal">
+
+    <div class="details-box">
+
+        <button class="close" id="closeDetails">×</button>
+
+        <div class="country-heading">
+
+            <div class="big-flag" id="modalFlag"></div>
+
+            <div>
+                <h2 id="modalName"></h2>
+                <p id="modalOfficial"></p>
+            </div>
+
+        </div>
+
+        <div class="summary-section">
+
+            <h3>📖 About This Country</h3>
+
+            <p id="countrySummary"></p>
+
+        </div>
+
+        <div class="detail-grid" id="detailGrid"></div>
+
+        <div class="details-actions">
+
+            <button class="quiz-btn" id="startQuizBtn">
+                🧠 Take 10-Question Quiz
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- QUIZ -->
+
+<div class="modal" id="quizModal">
+
+    <div class="quiz-box">
+
+        <button class="close" id="closeQuiz">×</button>
+
+        <div class="quiz-header">
+
+            <div>
+                <span>COUNTRY QUIZ</span>
+                <h2 id="quizCountry"></h2>
+            </div>
+
+            <div class="quiz-progress" id="quizProgress">
+                1 / 10
+            </div>
+
+        </div>
+
+        <div class="progress-bar">
+            <div id="progressFill"></div>
+        </div>
+
+        <div id="quizContent"></div>
+
+    </div>
+
+</div>
+
+
+<div class="toast" id="toast"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
