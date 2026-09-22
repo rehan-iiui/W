@@ -1,4 +1,4 @@
-const countries = [
+ const countries = [
 
 {
 name:"Pakistan",
@@ -12,116 +12,41 @@ language:"Urdu, English",
 region:"South Asia",
 flag:"🇵🇰",
 
-summary:"Pakistan is a country located in South Asia.
+summary:`Pakistan is a country located in South Asia.
 Its official name is the Islamic Republic of Pakistan.
-Pakistan was created as an independent country on 14 August 1947.
-The country was established after the end of British rule in the Indian subcontinent.
-Muhammad Ali Jinnah is known as the founder of Pakistan and Quaid-e-Azam.
-Allama Muhammad Iqbal played an important role in inspiring the idea of a separate homeland for Muslims.
-Pakistan was created so Muslims of the region could have a homeland where they could develop their social, cultural, and religious life.
-Pakistan shares borders with India, Afghanistan, Iran, and China.
-It also has a coastline along the Arabian Sea.
-Islamabad is the capital city of Pakistan.
-Karachi is the largest city and an important economic and commercial center.
-Lahore is famous for its history, culture, architecture, and educational institutions.
+Pakistan was created on 14 August 1947 after gaining independence from British rule.
+The country was founded under the leadership of Muhammad Ali Jinnah.
+
 Pakistan has four provinces: Punjab, Sindh, Khyber Pakhtunkhwa, and Balochistan.
-The country also includes the territories of Islamabad Capital Territory, Azad Jammu and Kashmir, and Gilgit-Baltistan.
-Pakistan has a great variety of landscapes, from high mountains to deserts and coastal areas.
-The northern areas contain some of the world's highest mountains.
+It also includes the Islamabad Capital Territory, Azad Jammu and Kashmir, and Gilgit-Baltistan.
+
+Pakistan has many different landscapes, including mountains, deserts, plains, forests, rivers, and coastal areas.
+The northern regions are famous for the Himalayas, Karakoram, and Hindu Kush mountain ranges.
 K2, the second-highest mountain in the world, is located in Gilgit-Baltistan.
-The Karakoram, Himalaya, and Hindu Kush mountain ranges meet in northern Pakistan.
-Pakistan has many beautiful valleys, including Hunza, Swat, Kaghan, and Neelum.
-The Indus River is one of the country's most important rivers.
-The Indus River has supported agriculture and settlements for thousands of years.
-Pakistan has a large agricultural sector that produces wheat, rice, cotton, sugarcane, fruits, and vegetables.
-The Indus Basin is especially important for farming and irrigation.
-Pakistan has several major dams and reservoirs that support electricity generation, irrigation, and water management.
-Pakistan's national language is Urdu.
-English is also widely used in government, education, business, and official communication.
-Pakistan is home to many regional languages, including Punjabi, Sindhi, Pashto, Balochi, Saraiki, and Hindko.
-Pakistan has a rich cultural heritage influenced by many ancient civilizations and historical periods.
-The ancient Indus Valley Civilization developed in parts of present-day Pakistan thousands of years ago.
-Mohenjo-daro and Harappa are two famous archaeological sites connected with this civilization.
-Pakistan has many historic mosques, forts, gardens, shrines, and monuments.
-The Badshahi Mosque in Lahore is one of the country's most famous historical landmarks.
-The Faisal Mosque in Islamabad is one of the most recognizable modern mosques in Pakistan.
-Pakistan's national animal is the markhor.
-The national bird of Pakistan is the chukar partridge.
-The national flower is jasmine.
-The national tree is the deodar.
-The national sport is traditionally recognized as field hockey.
-Cricket is extremely popular throughout the country.
-Pakistan has produced many internationally known cricket players and teams.
-Pakistan has also achieved success in hockey, squash, mountaineering, and other sports.
-Pakistani cuisine includes dishes such as biryani, pulao, nihari, kebabs, haleem, and various breads.
-Different regions of Pakistan have their own distinctive foods, traditions, clothing, music, and festivals.
-Pakistan celebrates Independence Day every year on 14 August.
-Pakistan Day is observed on 23 March to remember an important milestone in the country's history.
-Eid al-Fitr and Eid al-Adha are major Islamic festivals celebrated across Pakistan.
-Pakistan has a young and growing population.
-Education is provided through schools, colleges, universities, and other learning institutions across the country.
-Pakistan has universities and research institutions working in science, technology, medicine, engineering, and other fields.
-The country has developed industries including textiles, agriculture, food processing, sports goods, surgical instruments, cement, and technology services.
-Pakistan's location gives it importance as a connection between South Asia, Central Asia, China, and the Middle East.
-The China-Pakistan Economic Corridor, commonly called CPEC, is a major infrastructure and development initiative involving Pakistan and China.
-Pakistan's people have diverse traditions while sharing many common cultural and national values.
-The country has faced various challenges throughout its history, including economic difficulties, natural disasters, and political changes.
-Despite these challenges, Pakistan has continued to develop its institutions, infrastructure, education, science, and technology.
-Pakistan is a country with a long history, diverse cultures, remarkable landscapes, and a rich heritage that continues to shape its future.",
+
+The Indus River is one of the country's most important rivers and has played a major role in its history and agriculture.
+Major cities include Karachi, Lahore, Islamabad, Rawalpindi, Peshawar, Quetta, and Faisalabad.
+
+Pakistan has a rich cultural heritage influenced by ancient civilizations such as the Indus Valley Civilization.
+Famous historical sites include Mohenjo-daro, Taxila, Lahore Fort, Badshahi Mosque, and Rohtas Fort.
+
+Cricket is the most popular sport in Pakistan, and the Pakistan national cricket team has won major international tournaments.
+Pakistan is also known for its traditional food, colorful festivals, handicrafts, music, poetry, and diverse regional cultures.
+
+Pakistan is a country with a long history, diverse cultures, remarkable landscapes, and a rich heritage that continues to shape its future.`,
 
 quiz:[
-{
-q:"What is the capital city of Pakistan?",
-options:["Islamabad","Karachi","Lahore","Peshawar"],
-answer:"Islamabad"
-},
-{
-q:"Which river is one of the most important rivers of Pakistan?",
-options:["Indus River","Nile River","Amazon River","Danube River"],
-answer:"Indus River"
-},
-{
-q:"Which sea lies to the south of Pakistan?",
-options:["Arabian Sea","Red Sea","Mediterranean Sea","Black Sea"],
-answer:"Arabian Sea"
-},
-{
-q:"Pakistan is located primarily in which region?",
-options:["South Asia","Western Europe","South America","East Africa"],
-answer:"South Asia"
-},
-{
-q:"Which city is the largest city of Pakistan by population?",
-options:["Karachi","Islamabad","Quetta","Murree"],
-answer:"Karachi"
-},
-{
-q:"Which ancient civilization developed around the Indus River system?",
-options:["Indus Valley Civilization","Roman Civilization","Maya Civilization","Viking Civilization"],
-answer:"Indus Valley Civilization"
-},
-{
-q:"Which mountain range includes K2?",
-options:["Karakoram","Andes","Alps","Atlas"],
-answer:"Karakoram"
-},
-{
-q:"What is the currency of Pakistan?",
-options:["Pakistani Rupee","Taka","Riyal","Dinar"],
-answer:"Pakistani Rupee"
-},
-{
-q:"Which language is the national language of Pakistan?",
-options:["Urdu","Arabic","Persian","Turkish"],
-answer:"Urdu"
-},
-{
-q:"What is the name of Pakistan's capital?",
-options:["Islamabad","Lahore","Karachi","Multan"],
-answer:"Islamabad"
-}
+{q:"What is the capital city of Pakistan?", options:["Islamabad","Karachi","Lahore","Peshawar"], answer:"Islamabad"},
+{q:"When did Pakistan gain independence?", options:["14 August 1947","15 August 1947","23 March 1940","14 August 1948"], answer:"14 August 1947"},
+{q:"Who is known as the founder of Pakistan?", options:["Muhammad Ali Jinnah","Allama Iqbal","Liaquat Ali Khan","Sir Syed Ahmad Khan"], answer:"Muhammad Ali Jinnah"},
+{q:"Which is the largest province of Pakistan by area?", options:["Balochistan","Punjab","Sindh","Khyber Pakhtunkhwa"], answer:"Balochistan"},
+{q:"Which city is known as the City of Gardens?", options:["Lahore","Karachi","Islamabad","Quetta"], answer:"Lahore"},
+{q:"Which is the highest mountain in Pakistan?", options:["K2","Nanga Parbat","Rakaposhi","Tirich Mir"], answer:"K2"},
+{q:"Which river is the longest river in Pakistan?", options:["Indus River","Jhelum River","Chenab River","Ravi River"], answer:"Indus River"},
+{q:"What is the national animal of Pakistan?", options:["Markhor","Snow Leopard","Lion","Tiger"], answer:"Markhor"},
+{q:"Which ancient civilization developed in present-day Pakistan?", options:["Indus Valley Civilization","Roman Civilization","Maya Civilization","Greek Civilization"], answer:"Indus Valley Civilization"},
+{q:"What is the currency of Pakistan?", options:["Pakistani Rupee","Indian Rupee","Taka","Riyal"], answer:"Pakistani Rupee"}
 ]
-
 },
 
 {
@@ -136,116 +61,41 @@ language:"Hindi, English",
 region:"South Asia",
 flag:"🇮🇳",
 
-summary:"India is a country located in South Asia.
-Its official name is the Republic of India.
-India became independent from British rule on 15 August 1947.
-New Delhi is the capital city of India.
-India is one of the world's largest countries by land area.
-It is also one of the world's most populous countries.
-India shares borders with Pakistan, China, Nepal, Bhutan, Bangladesh, and Myanmar.
-It also has coastlines along the Arabian Sea, the Bay of Bengal, and the Indian Ocean.
-India has a great variety of geographical landscapes.
-The Himalayan mountain range forms much of India's northern landscape.
-The Himalayas contain some of the world's highest mountains.
-The northern plains contain fertile areas supported by major river systems.
-Important rivers include the Ganges, Yamuna, Brahmaputra, Godavari, and Narmada.
-The Ganges is one of India's most important rivers.
-India has deserts, forests, grasslands, mountains, plateaus, and coastal regions.
-The Thar Desert is located mainly in the northwestern part of the country.
-India has several major islands, including the Andaman and Nicobar Islands and Lakshadweep.
-India has a long and diverse history stretching back thousands of years.
-Ancient civilizations developed in the Indian subcontinent many centuries ago.
-The Indus Valley Civilization included important settlements in areas that are now part of India and Pakistan.
-India has been influenced by many kingdoms, empires, cultures, and historical traditions.
-The Maurya and Gupta periods are important parts of ancient Indian history.
-The Mughal Empire also played a significant role in the history and architecture of the region.
-European powers later established trading and political influence in parts of the subcontinent.
-The British gradually expanded their control over large parts of India.
-India's independence movement included many leaders and organizations.
-Mahatma Gandhi became one of the most prominent leaders of India's independence movement.
-Jawaharlal Nehru became India's first prime minister after independence.
-India adopted its Constitution in 1950.
-India is a federal parliamentary democratic republic.
-India is divided into states and union territories.
-India has many languages spoken across different regions.
-Hindi and English are widely used for national and official purposes.
-The Constitution recognizes numerous other languages as scheduled languages.
-India has a wide variety of religions, traditions, and cultural practices.
-Hinduism is the largest religion in India.
-Islam, Christianity, Sikhism, Buddhism, Jainism, and other religions are also practiced in the country.
-India is famous for its diverse festivals, music, dance, clothing, art, and literature.
-Diwali, Holi, Eid, Christmas, Vaisakhi, and many regional festivals are celebrated by different communities.
-Indian cuisine varies greatly from region to region.
-Popular foods include biryani, dosa, samosa, roti, naan, curry dishes, and many regional specialties.
-India has many famous historical monuments and archaeological sites.
-The Taj Mahal in Agra is one of India's most famous landmarks.
-India has a large film industry, with Hindi cinema commonly known as Bollywood.
-Cricket is one of the most popular sports in India.
-India has also achieved success in hockey, badminton, wrestling, shooting, athletics, and other sports.
-India's economy includes agriculture, manufacturing, services, information technology, and many other industries.
-India is one of the world's major producers of agricultural products.
-The country has a large technology and software industry.
-India has developed a significant space program through the Indian Space Research Organisation, known as ISRO.
-India's space program has carried out missions involving satellites, the Moon, Mars, and solar research.
-India has many universities, research institutions, and scientific organizations.
-The country has a large and diverse population with many regional cultures and traditions.
-India faces challenges including poverty, inequality, environmental pressures, infrastructure needs, and regional differences.
-At the same time, India has continued developing its economy, technology, infrastructure, education, and scientific capabilities.
-India is a diverse country with a long history, many cultures and languages, varied landscapes, and an important role in South Asia and the wider world.",
+summary:`India is a large country located in South Asia.
+It is one of the world's most populous countries and has a long and diverse history.
+
+India is known for its many cultures, languages, religions, traditions, and festivals.
+The country has many different landscapes, including the Himalayan mountains, fertile plains, deserts, forests, and coastal regions.
+
+The Himalayas form India's northern boundary and include some of the world's highest mountains.
+The Ganges is one of India's most important rivers and has great historical and cultural importance.
+
+India has many famous cities, including New Delhi, Mumbai, Kolkata, Chennai, Bengaluru, Hyderabad, and Jaipur.
+New Delhi is the capital city and an important political and cultural center.
+
+India has many famous historical and cultural landmarks.
+The Taj Mahal in Agra is one of the world's most famous monuments and is recognized as a UNESCO World Heritage Site.
+
+India has a large economy and is known for industries including information technology, manufacturing, agriculture, medicine, and space research.
+The Indian Space Research Organisation has carried out many successful missions.
+
+Cricket is extremely popular in India, and the country has produced many famous cricket players.
+India is also known for its films, music, food, literature, art, and festivals.
+
+India's diverse cultures and long history make it one of the world's most culturally rich countries.`,
 
 quiz:[
-{
-q:"What is the capital of India?",
-options:["New Delhi","Mumbai","Kolkata","Chennai"],
-answer:"New Delhi"
-},
-{
-q:"India is located in which region?",
-options:["South Asia","North Africa","Western Europe","South America"],
-answer:"South Asia"
-},
-{
-q:"What is the currency of India?",
-options:["Indian Rupee","Pakistani Rupee","Yen","Baht"],
-answer:"Indian Rupee"
-},
-{
-q:"Which mountain range lies along northern India?",
-options:["Himalayas","Andes","Alps","Rockies"],
-answer:"Himalayas"
-},
-{
-q:"Which river is one of India's major rivers?",
-options:["Ganges","Nile","Amazon","Danube"],
-answer:"Ganges"
-},
-{
-q:"Which city is one of India's largest cities?",
-options:["Mumbai","Islamabad","Kabul","Doha"],
-answer:"Mumbai"
-},
-{
-q:"Which ocean borders India to the south?",
-options:["Indian Ocean","Atlantic Ocean","Arctic Ocean","Pacific Ocean"],
-answer:"Indian Ocean"
-},
-{
-q:"What is India's official currency symbol commonly written as?",
-options:["₹","$","£","¥"],
-answer:"₹"
-},
-{
-q:"Which continent is India part of?",
-options:["Asia","Africa","Europe","Oceania"],
-answer:"Asia"
-},
-{
-q:"What is the name of India's capital territory?",
-options:["New Delhi","Mumbai","Jaipur","Pune"],
-answer:"New Delhi"
-}
+{q:"What is the capital of India?", options:["New Delhi","Mumbai","Kolkata","Chennai"], answer:"New Delhi"},
+{q:"Which famous monument is located in Agra?", options:["Taj Mahal","Red Fort","Gateway of India","Qutub Minar"], answer:"Taj Mahal"},
+{q:"Which mountain range is located in northern India?", options:["Himalayas","Andes","Alps","Rockies"], answer:"Himalayas"},
+{q:"What is the currency of India?", options:["Indian Rupee","Pakistani Rupee","Taka","Yen"], answer:"Indian Rupee"},
+{q:"Which river is one of the most important rivers in India?", options:["Ganges","Nile","Amazon","Danube"], answer:"Ganges"},
+{q:"Which city is India's major financial center?", options:["Mumbai","Jaipur","Delhi","Agra"], answer:"Mumbai"},
+{q:"What sport is extremely popular in India?", options:["Cricket","Ice Hockey","Baseball","Rugby"], answer:"Cricket"},
+{q:"What is India's space agency called?", options:["ISRO","NASA","ESA","JAXA"], answer:"ISRO"},
+{q:"Which city is India's capital?", options:["New Delhi","Mumbai","Bengaluru","Hyderabad"], answer:"New Delhi"},
+{q:"India is located in which continent?", options:["Asia","Europe","Africa","South America"], answer:"Asia"}
 ]
-
 },
 
 {
@@ -254,122 +104,47 @@ official:"People's Republic of China",
 capital:"Beijing",
 continent:"Asia",
 population:"1.4 billion",
-area:"9,596,960 km²",
-currency:"Renminbi (CNY)",
+area:"9,596,961 km²",
+currency:"Renminbi (Yuan)",
 language:"Mandarin Chinese",
 region:"East Asia",
 flag:"🇨🇳",
 
-summary:"China is a country located in East Asia.
-Its official name is the People's Republic of China.
-Beijing is the capital city of China.
-China is one of the world's largest countries by land area.
-It is also one of the world's most populous countries.
-China shares land borders with 14 countries.
-These include Mongolia, Russia, Kazakhstan, Pakistan, India, Nepal, Bhutan, and Myanmar.
-China also has a long coastline along the Pacific Ocean.
-China has a great variety of geographical landscapes.
-The Himalayas rise along parts of China's southwestern region.
-Mount Everest lies on the border between China and Nepal.
-The Tibetan Plateau is one of the world's highest and largest plateaus.
-China also contains deserts, forests, grasslands, mountains, plains, and river valleys.
-The Gobi Desert extends across northern China and southern Mongolia.
-The Yangtze is China's longest river and one of the longest rivers in the world.
-The Yellow River is another major river with great historical importance.
-China's history stretches back thousands of years.
-Ancient Chinese civilizations developed along major river valleys.
-China was historically ruled by a succession of dynasties.
-Important dynasties included the Qin, Han, Tang, Song, Yuan, Ming, and Qing.
-The Qin dynasty unified much of China in the third century BCE.
-The Han dynasty contributed greatly to China's administration, culture, and trade.
-The Silk Road connected China with regions across Asia, the Middle East, and Europe.
-China developed important inventions including papermaking, printing, gunpowder, and the compass.
-The Great Wall is one of China's most famous historical structures.
-The Great Wall was built and expanded over different periods to protect northern frontiers.
-The Forbidden City in Beijing is another major historical landmark.
-The Chinese Revolution of 1911 ended the imperial system.
-The People's Republic of China was established on 1 October 1949.
-China is governed as a socialist state under the leadership of the Communist Party of China.
-China is divided into provinces, autonomous regions, municipalities, and special administrative regions.
-Mandarin Chinese is the country's official standard language.
-China has many other regional languages and varieties of Chinese.
-China has a rich cultural heritage involving literature, painting, music, architecture, and traditional arts.
-Chinese calligraphy is a traditional art form with a long history.
-Traditional Chinese philosophy includes the teachings associated with Confucianism, Taoism, and other schools of thought.
-Chinese cuisine is highly diverse and varies greatly between regions.
-Famous Chinese foods include dumplings, noodles, fried rice, spring rolls, and many regional dishes.
-The Chinese New Year, also called the Spring Festival, is one of the country's major traditional celebrations.
-China has many important natural areas and wildlife species.
-The giant panda is one of China's best-known animals.
-China has developed a large and diverse economy.
-Major industries include manufacturing, electronics, machinery, automobiles, textiles, energy, and technology.
-China is one of the world's major trading nations.
-Chinese cities such as Shanghai, Beijing, Shenzhen, and Guangzhou are important economic centers.
-China has built extensive highways, railways, bridges, ports, and airports.
-China operates one of the world's largest high-speed railway networks.
-China has made major investments in science, engineering, telecommunications, and technology.
-China has an active space program and operates the China National Space Administration.
-Chinese space missions have explored the Moon and Mars and have contributed to the country's space research.
-Basketball, football, table tennis, badminton, and martial arts are popular sports in China.
-Table tennis has a particularly strong tradition in the country.
-China has many universities and research institutions.
-The country faces challenges including environmental pollution, an aging population, regional differences, and resource management.
-China continues to develop its infrastructure, technology, scientific research, and economy.
-China is a historically important and geographically diverse country with a rich cultural heritage and a major role in Asia and the wider world.",
+summary:`China is a large country located in East Asia.
+It is one of the world's oldest civilizations and has a history spanning thousands of years.
+
+China is famous for its ancient inventions, including paper, printing, gunpowder, and the compass.
+The country has a wide variety of landscapes, from mountains and plateaus to deserts, forests, rivers, and coastlines.
+
+The Great Wall of China is one of the world's most famous landmarks.
+It was built and expanded by different Chinese dynasties over many centuries to help defend territories.
+
+Beijing is the capital of China and is home to important historical sites such as the Forbidden City and the Temple of Heaven.
+Shanghai is one of China's largest cities and is an important financial and commercial center.
+
+China has several major rivers, including the Yangtze River and the Yellow River.
+The Yangtze is the longest river in China and one of the longest rivers in the world.
+
+China has a large and diverse economy, with major industries including manufacturing, technology, agriculture, transportation, and energy.
+It is also an important country in space exploration.
+
+China has a rich cultural heritage including traditional Chinese art, music, literature, food, martial arts, and festivals.
+Chinese New Year is one of the country's most widely celebrated festivals.
+
+China's long history, large population, diverse geography, and cultural heritage make it an important country in the world.`,
 
 quiz:[
-{
-q:"What is the capital of China?",
-options:["Beijing","Shanghai","Hong Kong","Guangzhou"],
-answer:"Beijing"
-},
-{
-q:"China is located in which part of Asia?",
-options:["East Asia","South Asia","Western Asia","Central Asia"],
-answer:"East Asia"
-},
-{
-q:"What currency is used in China?",
-options:["Renminbi","Yen","Won","Rupee"],
-answer:"Renminbi"
-},
-{
-q:"Which language is the most widely spoken official language?",
-options:["Mandarin Chinese","Arabic","Hindi","French"],
-answer:"Mandarin Chinese"
-},
-{
-q:"Which is one of China's major rivers?",
-options:["Yangtze","Nile","Amazon","Thames"],
-answer:"Yangtze"
-},
-{
-q:"Which city is China's capital?",
-options:["Beijing","Shanghai","Shenzhen","Nanjing"],
-answer:"Beijing"
-},
-{
-q:"China has a coastline along which ocean?",
-options:["Pacific Ocean","Atlantic Ocean","Arctic Ocean","Southern Ocean"],
-answer:"Pacific Ocean"
-},
-{
-q:"Which landscape is found in western China?",
-options:["High mountains and plateaus","Only tropical islands","Only flat grassland","Only coastal beaches"],
-answer:"High mountains and plateaus"
-},
-{
-q:"Which continent contains China?",
-options:["Asia","Europe","Africa","South America"],
-answer:"Asia"
-},
-{
-q:"What is China's capital city?",
-options:["Beijing","Shanghai","Chengdu","Xi'an"],
-answer:"Beijing"
-}
+{q:"What is the capital of China?", options:["Beijing","Shanghai","Hong Kong","Guangzhou"], answer:"Beijing"},
+{q:"Which famous structure is located in China?", options:["Great Wall of China","Eiffel Tower","Colosseum","Taj Mahal"], answer:"Great Wall of China"},
+{q:"What is the longest river in China?", options:["Yangtze River","Yellow River","Pearl River","Mekong River"], answer:"Yangtze River"},
+{q:"What is China's currency?", options:["Yuan","Yen","Won","Rupee"], answer:"Yuan"},
+{q:"Which city is one of China's major financial centers?", options:["Shanghai","Lhasa","Xi'an","Nanjing"], answer:"Shanghai"},
+{q:"Which language is most widely spoken in China?", options:["Mandarin Chinese","English","Japanese","Korean"], answer:"Mandarin Chinese"},
+{q:"Which ancient invention is associated with China?", options:["Paper","Steam Engine","Telephone","Airplane"], answer:"Paper"},
+{q:"Which famous palace complex is located in Beijing?", options:["Forbidden City","Buckingham Palace","Versailles","Louvre"], answer:"Forbidden City"},
+{q:"China is located in which continent?", options:["Asia","Europe","Africa","North America"], answer:"Asia"},
+{q:"What is a major traditional festival in China?", options:["Chinese New Year","Thanksgiving","Easter","Halloween"], answer:"Chinese New Year"}
 ]
-
 },
 
 {
@@ -377,123 +152,48 @@ name:"Japan",
 official:"Japan",
 capital:"Tokyo",
 continent:"Asia",
-population:"123 million",
+population:"124 million",
 area:"377,975 km²",
 currency:"Japanese Yen (JPY)",
 language:"Japanese",
 region:"East Asia",
 flag:"🇯🇵",
 
-summary:"Japan is an island country located in East Asia.
-Its official name is the State of Japan.
-Tokyo is the capital and largest metropolitan area of Japan.
-Japan is made up of thousands of islands.
-The four main islands are Honshu, Hokkaido, Kyushu, and Shikoku.
-Japan lies in the Pacific Ocean east of the Korean Peninsula and China.
-Japan is known for its mountainous landscapes and extensive coastline.
-Mount Fuji is Japan's highest mountain and one of its most famous landmarks.
-Japan is located in an area where several tectonic plates meet.
-Because of this location, Japan experiences earthquakes and volcanic activity.
-Japan has many mountains, forests, rivers, lakes, and coastal areas.
-The Japanese climate varies from cold northern regions to warmer southern areas.
-Japan has four distinct seasons in many parts of the country.
-Japan has a long and distinctive history.
-Early Japanese society developed through several historical periods and cultural influences.
-The imperial institution has existed for many centuries.
-Japan's traditional history includes periods associated with samurai warriors and feudal governments.
-The shoguns held major political power during much of Japan's feudal history.
-Samurai developed traditions involving military skills, discipline, and loyalty.
-The Edo period brought a long period of internal stability under the Tokugawa shogunate.
-Japan began rapid modernization during the Meiji period in the late nineteenth century.
-During this period, Japan developed modern industries, institutions, transportation, and military forces.
-Japan became a major industrial and economic power during the twentieth century.
-Japan was involved in the Second World War.
-The country experienced enormous destruction during the war.
-Japan adopted a new constitution in 1947.
-Japan is a constitutional monarchy with a parliamentary government.
-The Emperor serves as the symbol of the state and the unity of the people.
-Japan has a highly developed system of infrastructure and public transportation.
-Japanese cities are known for extensive railway and subway networks.
-Japan has one of the world's famous high-speed railway systems, known as the Shinkansen.
-Japanese is the main language spoken throughout the country.
-Japanese writing uses kanji together with hiragana and katakana.
-Japan has a rich cultural heritage involving literature, music, theater, crafts, and architecture.
-Traditional arts include tea ceremony, calligraphy, flower arranging, and various forms of theater.
-Kimono is a traditional Japanese garment associated with Japanese culture.
-Japan is famous for traditional foods such as sushi, ramen, tempura, and miso soup.
-Japanese cuisine places importance on seasonal ingredients and careful presentation.
-Japan celebrates many traditional festivals known as matsuri.
-Cherry blossoms are one of Japan's most recognizable natural and cultural symbols.
-Japan has diverse wildlife, including the Japanese macaque, sika deer, and red-crowned crane.
-Japan has a highly developed economy with major industries in automobiles, electronics, machinery, and technology.
-Japanese companies have become internationally known for automobiles, cameras, electronics, and consumer products.
-Japan is also a major center for robotics and advanced engineering.
-Japan has contributed significantly to scientific research and technological development.
-Japan has many universities and research institutions.
-Baseball is one of the most popular sports in Japan.
-Football, sumo wrestling, martial arts, and tennis are also widely followed.
-Sumo is Japan's traditional national sport and has a long history.
-Japan has a major influence on global entertainment through anime, manga, video games, and Japanese cinema.
-Japan has many famous cities, including Tokyo, Osaka, Kyoto, Hiroshima, and Sapporo.
-Kyoto is especially known for its temples, shrines, gardens, and traditional architecture.
-Japan faces challenges including an aging population, a low birth rate, and exposure to natural disasters.
-The country has developed advanced systems for earthquake preparedness and disaster response.
-Japan continues to combine traditional cultural practices with modern technology and innovation.
-Japan is a geographically diverse island nation with a rich history, distinctive culture, advanced technology, and an important role in the modern world.",
+summary:`Japan is an island country located in East Asia.
+It is made up of thousands of islands, with Honshu, Hokkaido, Kyushu, and Shikoku being the four main islands.
+
+Japan is known for its combination of ancient traditions and modern technology.
+The country has developed advanced industries in electronics, automobiles, robotics, engineering, and technology.
+
+Tokyo is the capital of Japan and one of the largest metropolitan areas in the world.
+Other major cities include Osaka, Kyoto, Yokohama, Hiroshima, and Nagoya.
+
+Mount Fuji is Japan's highest mountain and is one of the country's most recognizable landmarks.
+Japan also has many forests, mountains, hot springs, and coastal areas.
+
+Japan has a rich cultural heritage including traditional tea ceremonies, calligraphy, martial arts, festivals, temples, gardens, and architecture.
+Japanese food such as sushi, ramen, and tempura is popular around the world.
+
+Japan is also famous for anime, manga, video games, and modern entertainment.
+The country has a highly developed railway system, including famous high-speed Shinkansen trains.
+
+Japan has experienced earthquakes and volcanic activity because it lies along the Pacific Ring of Fire.
+Despite these challenges, Japan has developed advanced systems for earthquake preparedness.
+
+Japan's blend of history, culture, technology, and natural beauty makes it a unique country.`,
 
 quiz:[
-{
-q:"What is the capital of Japan?",
-options:["Tokyo","Kyoto","Osaka","Hiroshima"],
-answer:"Tokyo"
-},
-{
-q:"What is Japan's currency?",
-options:["Japanese Yen","Won","Yuan","Rupee"],
-answer:"Japanese Yen"
-},
-{
-q:"Japan is located in which region?",
-options:["East Asia","South Asia","West Africa","Northern Europe"],
-answer:"East Asia"
-},
-{
-q:"What is the main language of Japan?",
-options:["Japanese","Chinese","Korean","Thai"],
-answer:"Japanese"
-},
-{
-q:"Japan is primarily what type of country geographically?",
-options:["Island country","Landlocked country","Desert country","Continental-only country"],
-answer:"Island country"
-},
-{
-q:"Which ocean surrounds Japan?",
-options:["Pacific Ocean","Atlantic Ocean","Indian Ocean","Arctic Ocean"],
-answer:"Pacific Ocean"
-},
-{
-q:"Which city is Japan's capital?",
-options:["Tokyo","Kyoto","Osaka","Nagoya"],
-answer:"Tokyo"
-},
-{
-q:"Japan has many volcanoes because it lies near which major geological zone?",
-options:["Pacific Ring of Fire","Sahara Belt","Alpine Desert Zone","Atlantic Plain"],
-answer:"Pacific Ring of Fire"
-},
-{
-q:"Which continent is Japan associated with?",
-options:["Asia","Europe","Africa","Oceania"],
-answer:"Asia"
-},
-{
-q:"What is Japan's capital city?",
-options:["Tokyo","Sapporo","Kobe","Nara"],
-answer:"Tokyo"
-}
+{q:"What is the capital of Japan?", options:["Tokyo","Kyoto","Osaka","Hiroshima"], answer:"Tokyo"},
+{q:"What is Japan's currency?", options:["Yen","Yuan","Won","Rupee"], answer:"Yen"},
+{q:"What is Japan's highest mountain?", options:["Mount Fuji","Mount Everest","Mount Aso","Mount Kita"], answer:"Mount Fuji"},
+{q:"Which type of train is Japan famous for?", options:["Shinkansen","TGV","Maglev Express","Eurostar"], answer:"Shinkansen"},
+{q:"Which city was the first atomic bomb dropped on in 1945?", options:["Hiroshima","Tokyo","Osaka","Kyoto"], answer:"Hiroshima"},
+{q:"Which Japanese food is famous around the world?", options:["Sushi","Tacos","Pizza","Biryani"], answer:"Sushi"},
+{q:"Japan is located in which region?", options:["East Asia","South Asia","Western Europe","North Africa"], answer:"East Asia"},
+{q:"What type of entertainment is Japan famous for?", options:["Anime and Manga","Hollywood","Bollywood","Opera"], answer:"Anime and Manga"},
+{q:"Which natural event is common in Japan?", options:["Earthquakes","Sandstorms","Tornadoes only","Blizzards only"], answer:"Earthquakes"},
+{q:"How many main islands does Japan have?", options:["4","2","7","10"], answer:"4"}
 ]
-
 },
 
 {
@@ -505,119 +205,44 @@ population:"36 million",
 area:"2,149,690 km²",
 currency:"Saudi Riyal (SAR)",
 language:"Arabic",
-region:"Western Asia",
+region:"Middle East",
 flag:"🇸🇦",
 
-summary:"Saudi Arabia is a country located on the Arabian Peninsula in Western Asia.
-Its official name is the Kingdom of Saudi Arabia.
-Riyadh is the capital and largest city of Saudi Arabia.
-Saudi Arabia is the largest country on the Arabian Peninsula.
-It has coastlines along the Red Sea and the Arabian Gulf.
-Saudi Arabia shares borders with Jordan, Iraq, Kuwait, Qatar, the United Arab Emirates, Oman, and Yemen.
-Much of the country consists of deserts, rocky plains, and mountains.
-The Rub' al Khali, or Empty Quarter, is one of the world's largest continuous sand deserts.
-Saudi Arabia has several mountain ranges, especially in its western and southwestern regions.
-The country's climate is generally hot and dry, although temperatures vary between regions.
+summary:`Saudi Arabia is a country located in the Arabian Peninsula in Western Asia.
+It is the largest country in the Arabian Peninsula by area.
+
 Saudi Arabia is home to the two holiest cities in Islam, Makkah and Madinah.
-Makkah is the birthplace of Prophet Muhammad ﷺ.
-The Kaaba is located inside Masjid al-Haram in Makkah.
-Muslims around the world face the Kaaba when performing their daily prayers.
-The annual Hajj pilgrimage takes place in and around Makkah.
-Madinah is home to Al-Masjid an-Nabawi, the Mosque of the Prophet ﷺ.
-The Prophet Muhammad ﷺ migrated from Makkah to Madinah during the Hijrah.
-Madinah became an important center of the early Muslim community.
-Saudi Arabia has a special place in Islamic history and civilization.
-Arabic is the official language of Saudi Arabia.
-Islam is the country's official religion.
-Saudi Arabia follows the Islamic calendar alongside the Gregorian calendar for different official and everyday purposes.
-The modern Kingdom of Saudi Arabia was established in 1932 by King Abdulaziz Al Saud.
-King Abdulaziz is also known as Ibn Saud.
-The unification of the kingdom brought many regions of the Arabian Peninsula under one government.
-Saudi Arabia has a monarchy as its system of government.
-The king is the head of state and government.
-Saudi Arabia's economy has historically depended heavily on petroleum.
-The country possesses some of the world's significant petroleum reserves.
-Oil exports have played a major role in Saudi Arabia's economic development.
-Saudi Arabia is also developing industries beyond petroleum.
-These areas include tourism, technology, manufacturing, mining, renewable energy, and entertainment.
-Vision 2030 is a national development program aimed at diversifying the Saudi economy and developing different sectors.
-Saudi Arabia has modern cities with extensive roads, airports, hospitals, universities, and other infrastructure.
-Riyadh is an important center for government, finance, business, and technology.
-Jeddah is a major coastal city and an important gateway for pilgrims traveling to Makkah.
-Saudi Arabia has many historical and archaeological sites.
-AlUla is famous for its ancient landscapes and archaeological heritage.
-The archaeological site of Hegra, also known as Al-Hijr or Mada'in Salih, is a significant historical site.
-Saudi Arabia has a rich tradition of Arabic poetry, calligraphy, architecture, and crafts.
-Traditional Saudi clothing includes the thobe for men and the abaya as a common garment for women.
-Dates and Arabic coffee are important parts of Saudi hospitality and culture.
-Saudi cuisine includes dishes such as kabsa, mandi, jareesh, and various rice and meat dishes.
-The country has many traditional markets, known as souqs.
-Saudi Arabia has invested heavily in education and scientific research.
-It has universities and research institutions in cities across the kingdom.
-Football is one of the most popular sports in Saudi Arabia.
-Saudi Arabia has developed major sports facilities and hosts international sporting events.
-The Red Sea coast contains coral reefs and diverse marine life.
-Saudi Arabia has national parks and protected natural areas containing a variety of wildlife.
-The country has undertaken projects to protect its natural environment and increase vegetation.
-Saudi Arabia's location gives it an important position between Asia, Africa, and Europe.
-The country plays an important role in the regional economy, energy markets, and Islamic world.
-Saudi Arabia has undergone significant social and economic changes in recent decades.
-The kingdom continues to develop its cities, economy, tourism sector, technology, and infrastructure.
-Saudi Arabia is a country with deep Islamic and historical significance, vast deserts, modern cities, important natural resources, and a rapidly developing economy.",
+Millions of Muslims from around the world travel to these cities every year for Hajj and Umrah.
+
+Riyadh is the capital and largest city of Saudi Arabia.
+Other important cities include Jeddah, Makkah, Madinah, Dammam, and Taif.
+
+Much of Saudi Arabia consists of desert landscapes.
+The Rub' al Khali, also known as the Empty Quarter, is one of the largest continuous sand deserts in the world.
+
+Saudi Arabia has large petroleum reserves and has historically been one of the world's major oil-producing countries.
+The country is also developing industries such as tourism, technology, renewable energy, and infrastructure.
+
+Saudi Arabia has a rich Arab and Islamic heritage.
+Arabic is the official language and Islam plays a central role in the country's culture and history.
+
+The country has many historical sites, traditional markets, modern cities, and natural landscapes.
+Its location connects Asia, Africa, and Europe through important trade and travel routes.
+
+Saudi Arabia is an important country in the Middle East and has a significant cultural, religious, and economic role.`,
 
 quiz:[
-{
-q:"What is the capital of Saudi Arabia?",
-options:["Riyadh","Jeddah","Makkah","Madinah"],
-answer:"Riyadh"
-},
-{
-q:"What is the currency of Saudi Arabia?",
-options:["Saudi Riyal","Dirham","Dinar","Rupee"],
-answer:"Saudi Riyal"
-},
-{
-q:"What is the official language of Saudi Arabia?",
-options:["Arabic","Urdu","Persian","Turkish"],
-answer:"Arabic"
-},
-{
-q:"On which peninsula is Saudi Arabia located?",
-options:["Arabian Peninsula","Iberian Peninsula","Balkan Peninsula","Korean Peninsula"],
-answer:"Arabian Peninsula"
-},
-{
-q:"Which city contains the Kaaba?",
-options:["Makkah","Riyadh","Jeddah","Dammam"],
-answer:"Makkah"
-},
-{
-q:"Which city contains Al-Masjid an-Nabawi?",
-options:["Madinah","Riyadh","Jeddah","Taif"],
-answer:"Madinah"
-},
-{
-q:"Which sea borders western Saudi Arabia?",
-options:["Red Sea","Black Sea","Mediterranean Sea","Caspian Sea"],
-answer:"Red Sea"
-},
-{
-q:"Saudi Arabia is located in which part of Asia?",
-options:["Western Asia","East Asia","South Asia","North Asia"],
-answer:"Western Asia"
-},
-{
-q:"What is the capital city of Saudi Arabia?",
-options:["Riyadh","Makkah","Madinah","Jeddah"],
-answer:"Riyadh"
-},
-{
-q:"Which language is used officially in Saudi Arabia?",
-options:["Arabic","English","Urdu","Malay"],
-answer:"Arabic"
-}
+{q:"What is the capital of Saudi Arabia?", options:["Riyadh","Jeddah","Makkah","Madinah"], answer:"Riyadh"},
+{q:"Which two holy cities are located in Saudi Arabia?", options:["Makkah and Madinah","Riyadh and Jeddah","Taif and Dammam","Dubai and Abu Dhabi"], answer:"Makkah and Madinah"},
+{q:"What is Saudi Arabia's currency?", options:["Saudi Riyal","Dirham","Dinar","Rupee"], answer:"Saudi Riyal"},
+{q:"What is the official language of Saudi Arabia?", options:["Arabic","English","Persian","Urdu"], answer:"Arabic"},
+{q:"Which desert is located in Saudi Arabia?", options:["Rub' al Khali","Sahara","Gobi","Kalahari"], answer:"Rub' al Khali"},
+{q:"Saudi Arabia is located on which peninsula?", options:["Arabian Peninsula","Iberian Peninsula","Balkan Peninsula","Korean Peninsula"], answer:"Arabian Peninsula"},
+{q:"Which city is the holiest city in Islam?", options:["Makkah","Riyadh","Jeddah","Taif"], answer:"Makkah"},
+{q:"Which sea borders Saudi Arabia to the west?", options:["Red Sea","Arabian Sea","Mediterranean Sea","Black Sea"], answer:"Red Sea"},
+{q:"What is Saudi Arabia well known for producing?", options:["Oil","Coffee","Silk","Cocoa"], answer:"Oil"},
+{q:"Which religion has its holiest cities in Saudi Arabia?", options:["Islam","Christianity","Buddhism","Hinduism"], answer:"Islam"}
 ]
-
 },
 
 {
@@ -632,117 +257,44 @@ language:"English",
 region:"Western Europe",
 flag:"🇬🇧",
 
-summary:"The United Kingdom is a country located off the northwestern coast of mainland Europe.
-Its official name is the United Kingdom of Great Britain and Northern Ireland.
+summary:`The United Kingdom is a country in Northwestern Europe.
+It is made up of four constituent countries: England, Scotland, Wales, and Northern Ireland.
+
 London is the capital and largest city of the United Kingdom.
-The United Kingdom consists of four countries: England, Scotland, Wales, and Northern Ireland.
-Great Britain refers to the island containing England, Scotland, and Wales.
-Northern Ireland occupies the northeastern part of the island of Ireland.
-The United Kingdom is surrounded by the Atlantic Ocean and several seas.
-It has coastlines along the North Sea, English Channel, Irish Sea, and Atlantic Ocean.
-The UK has a varied landscape of mountains, hills, plains, forests, lakes, and coastlines.
-Ben Nevis in Scotland is the highest mountain in the United Kingdom.
-The UK has a generally temperate climate with relatively mild winters and cool summers.
-Rainfall occurs throughout much of the country, although amounts vary by region.
-The United Kingdom has a long and complex history.
-The region has been inhabited by humans for thousands of years.
-Ancient monuments such as Stonehenge are important parts of Britain's prehistoric heritage.
-England, Scotland, Wales, and Ireland developed distinct political and cultural histories.
-The Kingdom of Great Britain was formed in 1707 through the union of England and Scotland.
-The United Kingdom was formed in 1801 through a political union involving Great Britain and Ireland.
-Most of Ireland later became an independent state, while Northern Ireland remained part of the UK.
-The British Empire became one of the largest empires in world history.
-Britain played a major role in the Industrial Revolution.
-The Industrial Revolution transformed manufacturing, transportation, cities, and trade.
-The UK played a major role in both World Wars.
-The United Kingdom is a constitutional monarchy.
-The monarch is the head of state.
-The UK has a parliamentary system of government.
-The Parliament of the United Kingdom is based at the Palace of Westminster in London.
-The United Kingdom has a long tradition of common law and parliamentary government.
-English is the main language spoken across the United Kingdom.
-Welsh is an official language in Wales, while Scottish Gaelic and other regional languages are also spoken.
-The UK has a diverse population with people from many cultural backgrounds.
-The country has a rich literary tradition including writers such as William Shakespeare, Jane Austen, and Charles Dickens.
-British literature has influenced education and culture around the world.
-The UK has a strong tradition of music, theater, art, and architecture.
-London is an important international center for finance, culture, education, and business.
-Other major cities include Birmingham, Manchester, Glasgow, Liverpool, Edinburgh, Cardiff, and Belfast.
-Edinburgh is the capital of Scotland.
-Cardiff is the capital of Wales.
-Belfast is the capital of Northern Ireland.
-The UK has many historic castles, palaces, cathedrals, museums, and universities.
-Buckingham Palace is one of London's most famous landmarks.
-The UK has several world-famous universities and research institutions.
-The country has made important contributions to science, medicine, engineering, and technology.
-The Industrial Revolution helped Britain develop major advances in machinery, transportation, and manufacturing.
+It is an important global center for finance, culture, education, politics, and tourism.
+
+The United Kingdom has a long history and has played an important role in world history.
+It was once the center of a large empire and has influenced many parts of the world through language, culture, science, and trade.
+
+The country is famous for landmarks such as Big Ben, Buckingham Palace, Tower Bridge, Stonehenge, and Edinburgh Castle.
+
+The United Kingdom has produced many important scientists, writers, artists, musicians, and inventors.
+Famous British scientists include Isaac Newton, Michael Faraday, and Charles Darwin.
+
 Football is one of the most popular sports in the United Kingdom.
-Cricket, rugby, tennis, golf, and athletics are also widely followed.
-Wimbledon is one of the world's most famous tennis tournaments.
-British cuisine includes dishes such as fish and chips, roast dinner, pies, and various regional foods.
-The UK has a large and developed service-based economy.
-Important economic sectors include finance, technology, manufacturing, healthcare, education, tourism, and creative industries.
-The United Kingdom was a member of the European Union until it formally left in 2020 following Brexit.
-The country continues to maintain extensive political, economic, cultural, and diplomatic connections with countries around the world.
-The UK has several national parks and protected natural areas.
-Its countryside includes green valleys, rugged mountains, forests, lakes, and coastal landscapes.
-The United Kingdom continues to play an important role in international diplomacy, science, education, culture, and trade.
-The UK is a historically significant country known for its four constituent nations, rich heritage, parliamentary traditions, literature, science, and diverse landscapes.",
+Other popular sports include cricket, rugby, tennis, and Formula One.
+
+The United Kingdom has a constitutional monarchy and a parliamentary system of government.
+It is also home to many famous universities, including Oxford and Cambridge.
+
+The country has diverse landscapes including mountains, countryside, forests, rivers, lakes, and long coastlines.
+
+The United Kingdom has a rich cultural heritage that continues to influence literature, music, science, entertainment, and global culture.`,
 
 quiz:[
-{
-q:"What is the capital of the United Kingdom?",
-options:["London","Edinburgh","Cardiff","Belfast"],
-answer:"London"
-},
-{
-q:"Which currency is used in the United Kingdom?",
-options:["Pound Sterling","Euro","Dollar","Franc"],
-answer:"Pound Sterling"
-},
-{
-q:"How many constituent countries make up the United Kingdom?",
-options:["Four","Three","Five","Six"],
-answer:"Four"
-},
-{
-q:"Which of these is part of the United Kingdom?",
-options:["Scotland","Ireland","France","Belgium"],
-answer:"Scotland"
-},
-{
-q:"Where is London located?",
-options:["England","Scotland","Wales","Northern Ireland"],
-answer:"England"
-},
-{
-q:"The United Kingdom is located in which region?",
-options:["Western Europe","Eastern Asia","North Africa","South America"],
-answer:"Western Europe"
-},
-{
-q:"Which language is most widely spoken?",
-options:["English","Spanish","Arabic","German"],
-answer:"English"
-},
-{
-q:"Which country of the UK is known for Cardiff as its capital?",
-options:["Wales","Scotland","England","Northern Ireland"],
-answer:"Wales"
-},
-{
-q:"Which country of the UK has Edinburgh as its capital?",
-options:["Scotland","Wales","England","Northern Ireland"],
-answer:"Scotland"
-},
-{
-q:"What is the capital of the United Kingdom?",
-options:["London","Manchester","Liverpool","Birmingham"],
-answer:"London"
-}
+{q:"What is the capital of the United Kingdom?", options:["London","Manchester","Liverpool","Edinburgh"], answer:"London"},
+{q:"How many constituent countries make up the United Kingdom?", options:["4","3","5","6"], answer:"4"},
+{q:"Which four countries make up the UK?", options:["England, Scotland, Wales, Northern Ireland","England, Ireland, France, Wales","Scotland, France, Wales, Spain","England, Scotland, Ireland, France"], answer:"England, Scotland, Wales, Northern Ireland"},
+{q:"What is the currency of the United Kingdom?", options:["Pound Sterling","Euro","Dollar","Franc"], answer:"Pound Sterling"},
+{q:"Which famous clock tower is in London?", options:["Big Ben","Eiffel Tower","Leaning Tower","CN Tower"], answer:"Big Ben"},
+{q:"Which famous university is located in England?", options:["Oxford","Harvard","MIT","Tokyo University"], answer:"Oxford"},
+{q:"Who developed the laws of motion and gravity?", options:["Isaac Newton","Albert Einstein","Charles Darwin","Michael Faraday"], answer:"Isaac Newton"},
+{q:"Which sport is extremely popular in the UK?", options:["Football","Baseball","Basketball","Ice Hockey"], answer:"Football"},
+{q:"Which prehistoric monument is located in England?", options:["Stonehenge","Colosseum","Acropolis","Taj Mahal"], answer:"Stonehenge"},
+{q:"The UK is located on which continent?", options:["Europe","Asia","Africa","North America"], answer:"Europe"}
 ]
-
-},
+}
+];
 
 {
 name:"France",
@@ -756,7 +308,7 @@ language:"French",
 region:"Western Europe",
 flag:"🇫🇷",
 
-summary:"France is a country located mainly in Western Europe.
+summary:`France is a country located mainly in Western Europe.
 Its official name is the French Republic.
 Paris is the capital and largest city of France.
 France has territory in Western Europe as well as overseas regions and territories.
@@ -811,7 +363,7 @@ France has many national parks and protected natural areas.
 Its landscapes range from Mediterranean beaches to Alpine mountains and Atlantic coastlines.
 France has also played an important role in European history and international diplomacy.
 Today, France combines historic traditions with modern cities, technology, education, industry, and cultural institutions.
-France is a diverse European country known for its long history, famous landmarks, rich culture, cuisine, art, science, and varied landscapes.",
+France is a diverse European country known for its long history, famous landmarks, rich culture, cuisine, art, science, and varied landscapes.`,
 
 quiz:[
 {
@@ -880,7 +432,7 @@ language:"German",
 region:"Central Europe",
 flag:"🇩🇪",
 
-summary:"Germany is a country located in Central Europe.
+summary:`Germany is a country located in Central Europe.
 Its official name is the Federal Republic of Germany.
 Berlin is the capital and largest city of Germany.
 Germany is one of the largest countries in Europe by population.
@@ -935,7 +487,7 @@ The Black Forest is one of Germany's best-known natural regions.
 Germany has numerous national parks and protected natural areas.
 The country has invested heavily in renewable energy and environmental protection.
 Germany continues to combine its historical heritage with modern science, technology, education, and industry.
-Germany is a culturally rich European country known for its history, engineering, scientific achievements, landscapes, architecture, and important role in Europe.",
+Germany is a culturally rich European country known for its history, engineering, scientific achievements, landscapes, architecture, and important role in Europe.`,
 
 quiz:[
 {
@@ -1004,7 +556,7 @@ language:"Italian",
 region:"Southern Europe",
 flag:"🇮🇹",
 
-summary:"Italy is a country located in Southern Europe.
+summary:`Italy is a country located in Southern Europe.
 Its official name is the Italian Republic.
 Rome is the capital and largest city of Italy.
 Italy is located on a peninsula extending into the Mediterranean Sea.
@@ -1059,7 +611,7 @@ The country has several national parks and protected natural areas.
 Italy has many universities, including some of the oldest universities in Europe.
 Italian scientists, artists, engineers, and thinkers have contributed greatly to world knowledge and culture.
 Italy continues to combine its ancient heritage with modern industry, technology, education, fashion, and design.
-Italy is a culturally rich European country known for ancient Rome, the Renaissance, art, architecture, cuisine, fashion, beautiful landscapes, and historic cities.",
+Italy is a culturally rich European country known for ancient Rome, the Renaissance, art, architecture, cuisine, fashion, beautiful landscapes, and historic cities.`,
 
 quiz:[
 {
@@ -1128,7 +680,7 @@ language:"Spanish",
 region:"Southern Europe",
 flag:"🇪🇸",
 
-summary:"Spain is a country located in southwestern Europe.
+summary:`Spain is a country located in southwestern Europe.
 Its official name is the Kingdom of Spain.
 Madrid is the capital and largest city of Spain.
 Spain occupies most of the Iberian Peninsula.
@@ -1183,7 +735,7 @@ The country has diverse wildlife and ecosystems ranging from mountains to wetlan
 Spain has many universities and research institutions.
 Spanish scientists, explorers, artists, writers, and engineers have contributed to world history and culture.
 Spain continues to combine its historic heritage with modern cities, technology, education, tourism, and industry.
-Spain is a culturally diverse European country known for its long history, historic architecture, art, cuisine, football, islands, mountains, and Mediterranean and Atlantic coastlines.",
+Spain is a culturally diverse European country known for its long history, historic architecture, art, cuisine, football, islands, mountains, and Mediterranean and Atlantic coastlines.`,
 
 quiz:[
 {
@@ -1252,7 +804,7 @@ language:"English",
 region:"North America",
 flag:"🇺🇸",
 
-summary:"The United States is a country located mainly in North America.
+summary:`The United States is a country located mainly in North America.
 Its official name is the United States of America.
 Washington, D.C. is the capital of the United States.
 The United States consists of 50 states and a federal district.
@@ -1307,7 +859,8 @@ The United States has diverse ecosystems ranging from Arctic environments in Ala
 The country has played a major role in international politics, science, economics, and culture.
 The United States has experienced major historical events including the Civil War, two World Wars, and the Civil Rights Movement.
 Today, the United States combines diverse cultures, large cities, advanced technology, extensive natural landscapes, and a major economy.
-The United States is a geographically and culturally diverse country with a long history and significant influence in science, technology, economics, entertainment, and international affairs.",
+The United States is a geographically and culturally diverse country with a long history and significant influence in science, technology, economics, entertainment, and international affairs.`,
+
 quiz:[
 {
 q:"What is the capital of the United States?",
@@ -1375,7 +928,7 @@ language:"English, French",
 region:"North America",
 flag:"🇨🇦",
 
-summary:"Canada is a country located in the northern part of North America.
+summary:`Canada is a country located in the northern part of North America.
 Its official name is Canada.
 Ottawa is the capital city of Canada.
 Canada is the second-largest country in the world by total area.
@@ -1430,7 +983,8 @@ Banff and Jasper National Parks are famous for their mountains, lakes, forests, 
 Canada is home to wildlife such as polar bears, moose, beavers, bears, wolves, and caribou.
 Canada's northern regions contain large areas of Arctic tundra and are home to Inuit communities.
 Canada continues to develop its economy, science, technology, infrastructure, and environmental policies.
-Canada is a vast and diverse country known for its natural landscapes, multicultural population, Indigenous heritage, strong institutions, and rich cultural and economic life.",
+Canada is a vast and diverse country known for its natural landscapes, multicultural population, Indigenous heritage, strong institutions, and rich cultural and economic life.`,
+
 quiz:[
 {
 q:"What is the capital of Canada?",
@@ -1498,7 +1052,7 @@ language:"Spanish",
 region:"North America",
 flag:"🇲🇽",
 
-summary:"Mexico is a country located in the southern part of North America.
+summary:`Mexico is a country located in the southern part of North America.
 Its official name is the United Mexican States.
 Mexico City is the capital and largest city of Mexico.
 Mexico is one of the largest countries in the Americas by land area.
@@ -1553,7 +1107,8 @@ The country has national parks, marine reserves, forests, deserts, and other pro
 Mexico City is one of the world's largest metropolitan areas and an important cultural, economic, and political center.
 Mexico has many historic churches, colonial buildings, museums, plazas, and monuments.
 Mexico continues to develop its economy, infrastructure, education, technology, and tourism sector.
-Mexico is a culturally rich and geographically diverse country known for its ancient civilizations, vibrant traditions, historic cities, cuisine, natural landscapes, and important role in North America.",
+Mexico is a culturally rich and geographically diverse country known for its ancient civilizations, vibrant traditions, historic cities, cuisine, natural landscapes, and important role in North America.`,
+
 quiz:[
 {
 q:"What is the capital of Mexico?",
@@ -1621,7 +1176,7 @@ language:"Portuguese",
 region:"South America",
 flag:"🇧🇷",
 
-summary:"Brazil is the largest country in South America.
+summary:`Brazil is the largest country in South America.
 Its official name is the Federative Republic of Brazil.
 Brasília is the capital city of Brazil.
 São Paulo is the largest city in the country.
@@ -1676,7 +1231,8 @@ Brazil has many famous natural attractions, including Iguazu Falls and the Amazo
 Tourism is important to Brazil because of its beaches, forests, cities, cultural festivals, and natural landmarks.
 Brazil has played an important role in South American politics, trade, culture, and international affairs.
 The country continues to develop its infrastructure, technology, education, economy, and environmental programs.
-Brazil is a vast and diverse country known for the Amazon, rich biodiversity, vibrant culture, football, natural landscapes, and important role in South America.",
+Brazil is a vast and diverse country known for the Amazon, rich biodiversity, vibrant culture, football, natural landscapes, and important role in South America.`,
+
 quiz:[
 {
 q:"What is the capital of Brazil?",
@@ -1744,7 +1300,7 @@ language:"English",
 region:"Oceania",
 flag:"🇦🇺",
 
-summary:"Australia is a country and continent located in the Southern Hemisphere.
+summary:`Australia is a country and continent located in the Southern Hemisphere.
 Its official name is the Commonwealth of Australia.
 Canberra is the capital city of Australia.
 Sydney is the largest city and one of the country's major cultural and economic centers.
@@ -1799,7 +1355,8 @@ Tourism is important because of Australia's beaches, reefs, cities, wildlife, an
 Famous landmarks include the Sydney Opera House, Uluru, the Great Barrier Reef, and the Twelve Apostles.
 Australia has extensive roads, railways, airports, and modern cities spread across a very large territory.
 Australia continues to develop its science, technology, education, infrastructure, and renewable energy sectors.
-Australia is a vast island country and continent known for its Indigenous heritage, unique wildlife, diverse landscapes, modern cities, and important role in the Asia-Pacific region.",
+Australia is a vast island country and continent known for its Indigenous heritage, unique wildlife, diverse landscapes, modern cities, and important role in the Asia-Pacific region.`,
+
 quiz:[
 {
 q:"What is the capital of Australia?",
@@ -1867,7 +1424,7 @@ language:"Arabic",
 region:"North Africa",
 flag:"🇪🇬",
 
-summary:"Egypt is a country in northeastern Africa, with a small part of its territory, the Sinai Peninsula, in Asia.
+summary:`Egypt is a country in northeastern Africa, with a small part of its territory, the Sinai Peninsula, in Asia.
 The capital and largest city of Egypt is Cairo.
 Egypt has a population of more than 100 million people.
 The country lies along the Mediterranean Sea to the north and the Red Sea to the east.
@@ -1922,7 +1479,8 @@ Egypt's economy includes tourism, agriculture, manufacturing, energy, trade, and
 Tourism is important because millions of visitors come to see Egypt's ancient monuments, cities, deserts, and coastal areas.
 Egypt is home to diverse wildlife, including desert animals, birds, crocodiles, and marine life in the Red Sea.
 Egypt plays an important role in Africa, the Arab world, the Mediterranean region, and the Middle East.
-Egypt's ancient civilization, the Nile River, pyramids, Islamic heritage, and modern cities make it one of the world's most historically significant countries.",
+Egypt's ancient civilization, the Nile River, pyramids, Islamic heritage, and modern cities make it one of the world's most historically significant countries.`,
+
 quiz:[
 {
 q:"What is the capital of Egypt?",
@@ -1990,7 +1548,7 @@ language:"Multiple official languages",
 region:"Southern Africa",
 flag:"🇿🇦",
 
-summary"South Africa is a country at the southern tip of the African continent.
+summary:`South Africa is a country at the southern tip of the African continent.
 South Africa has three capital cities: Pretoria, Cape Town, and Bloemfontein.
 Pretoria is the administrative capital of South Africa.
 Cape Town is the legislative capital, where the Parliament meets.
@@ -2045,7 +1603,8 @@ South Africa is famous for its vineyards, especially around the Western Cape.
 The country has many national parks, nature reserves, and protected natural areas.
 South Africa's varied landscapes support a huge range of plants and animals.
 The country is an important economic and political center in Africa and is a member of the African Union.
-South Africa is known for its extraordinary wildlife, diverse cultures, dramatic landscapes, important history, and role in modern Africa.",
+South Africa is known for its extraordinary wildlife, diverse cultures, dramatic landscapes, important history, and role in modern Africa.`,
+
 quiz:[
 {
 q:"Which city is one of South Africa's capitals?",
@@ -2113,7 +1672,7 @@ language:"English, Māori",
 region:"Oceania",
 flag:"🇳🇿",
 
-summary:"New Zealand is an island country in the southwestern Pacific Ocean.
+summary:`New Zealand is an island country in the southwestern Pacific Ocean.
 It is located southeast of Australia across the Tasman Sea.
 The capital city of New Zealand is Wellington.
 Auckland is the country's largest urban area and an important economic center.
@@ -2168,7 +1727,8 @@ Wellington is known for its government institutions, museums, arts, and cultural
 Auckland is built around two large harbours and has many volcanic hills and cones.
 New Zealand is geographically isolated, which has helped its wildlife develop in unusual ways.
 The country is known for its natural beauty, Māori heritage, outdoor activities, and peaceful island landscapes.
-New Zealand is a fascinating country with unique wildlife, dramatic scenery, rich Māori culture, and a distinctive place in the Pacific region.",
+New Zealand is a fascinating country with unique wildlife, dramatic scenery, rich Māori culture, and a distinctive place in the Pacific region.`,
+
 quiz:[
 {
 q:"What is the capital of New Zealand?",
@@ -2223,911 +1783,6 @@ answer:"Wellington"
 ]
 
 }
-
-];
-
-
-let currentCountries = [...countries];
-
-let selectedCountry = null;
-
-let quizQuestions = [];
-
-let quizIndex = 0;
-
-let quizScore = 0;
-
-let answered = false;
-
-
-const grid = document.getElementById("countryGrid");
-
-const search = document.getElementById("search");
-
-const count = document.getElementById("count");
-
-const resultText = document.getElementById("resultText");
-
-const empty = document.getElementById("empty");
-
-
-/* FAVORITES */
-
-function getFavorites(){
-
-    return JSON.parse(
-        localStorage.getItem("worldFavorites") || "[]"
-    );
-
-}
-
-
-function saveFavorites(list){
-
-    localStorage.setItem(
-        "worldFavorites",
-        JSON.stringify(list)
-    );
-
-}
-
-
-function isFavorite(name){
-
-    return getFavorites().includes(name);
-
-}
-
-
-/* RENDER COUNTRIES */
-
-function render(list){
-
-    currentCountries = list;
-
-    grid.innerHTML = "";
-
-    count.textContent = list.length;
-
-    resultText.textContent =
-        `${list.length} shown`;
-
-    empty.style.display =
-        list.length ? "none" : "block";
-
-
-    list.forEach(country => {
-
-        const card =
-            document.createElement("div");
-
-        card.className = "country-card";
-
-
-        const saved =
-            isFavorite(country.name);
-
-
-        card.innerHTML = `
-
-            <div class="country-top">
-
-                <div class="flag">
-                    ${country.flag}
-                </div>
-
-                <button
-                    class="favorite ${saved ? "saved" : ""}"
-                    data-favorite="${country.name}"
-                >
-                    ${saved ? "★" : "☆"}
-                </button>
-
-            </div>
-
-            <h4>
-                ${country.name}
-            </h4>
-
-            <p class="capital">
-                Capital: ${country.capital}
-            </p>
-
-            <div class="info-row">
-                <span>Continent</span>
-                <span>${country.continent}</span>
-            </div>
-
-            <div class="info-row">
-                <span>Population</span>
-                <span>${country.population}</span>
-            </div>
-
-            <div class="info-row">
-                <span>Currency</span>
-                <span>${country.currency.split(" ")[0]}</span>
-            </div>
-
-            <button
-                class="details-btn"
-                data-country="${country.name}"
-            >
-                View Details →
-            </button>
-
-        `;
-
-
-        grid.appendChild(card);
-
-    });
-
-
-    document
-        .querySelectorAll("[data-favorite]")
-        .forEach(button => {
-
-            button.addEventListener(
-                "click",
-                event => {
-
-                    event.stopPropagation();
-
-                    const name =
-                        button.dataset.favorite;
-
-                    let favorites =
-                        getFavorites();
-
-
-                    if(
-                        favorites.includes(name)
-                    ){
-
-                        favorites =
-                            favorites.filter(
-                                item => item !== name
-                            );
-
-                        showToast(
-                            "Removed from favorites"
-                        );
-
-                    }else{
-
-                        favorites.push(name);
-
-                        showToast(
-                            "Added to favorites ⭐"
-                        );
-
-                    }
-
-
-                    saveFavorites(favorites);
-
-                    render(currentCountries);
-
-                }
-            );
-
-        });
-
-
-    document
-        .querySelectorAll("[data-country]")
-        .forEach(button => {
-
-            button.addEventListener(
-                "click",
-                () => {
-
-                    openDetails(
-                        button.dataset.country
-                    );
-
-                }
-            );
-
-        });
-
-}
-
-
-/* DETAILS */
-
-function openDetails(name){
-
-    const country =
-        countries.find(
-            item => item.name === name
-        );
-
-
-    if(!country) return;
-
-
-    selectedCountry = country;
-
-
-    document.getElementById(
-        "modalFlag"
-    ).textContent = country.flag;
-
-
-    document.getElementById(
-        "modalName"
-    ).textContent = country.name;
-
-
-    document.getElementById(
-        "modalOfficial"
-    ).textContent = country.official;
-
-
-    document.getElementById(
-        "countrySummary"
-    ).textContent = country.summary;
-
-
-    const details = [
-
-        ["Capital",country.capital],
-
-        ["Continent",country.continent],
-
-        ["Region",country.region],
-
-        ["Population",country.population],
-
-        ["Area",country.area],
-
-        ["Currency",country.currency],
-
-        ["Languages",country.language]
-
-    ];
-
-
-    document.getElementById(
-        "detailGrid"
-    ).innerHTML =
-
-        details.map(item => `
-
-            <div class="detail">
-
-                <label>
-                    ${item[0]}
-                </label>
-
-                <strong>
-                    ${item[1]}
-                </strong>
-
-            </div>
-
-        `).join("");
-
-
-    document.getElementById(
-        "detailsModal"
-    ).classList.add("show");
-
-}
-
-
-/* SEARCH */
-
-function filterCountries(){
-
-    const query =
-        search.value
-        .trim()
-        .toLowerCase();
-
-
-    const filtered =
-        countries.filter(country =>
-
-            country.name
-                .toLowerCase()
-                .includes(query)
-
-            ||
-
-            country.capital
-                .toLowerCase()
-                .includes(query)
-
-            ||
-
-            country.continent
-                .toLowerCase()
-                .includes(query)
-
-        );
-
-
-    document.getElementById(
-        "countriesTitle"
-    ).textContent =
-        query
-        ? "Search Results"
-        : "Countries";
-
-
-    render(filtered);
-
-}
-
-
-search.addEventListener(
-    "input",
-    filterCountries
-);
-
-
-document.getElementById(
-    "searchBtn"
-).addEventListener(
-    "click",
-    filterCountries
-);
-
-
-/* CONTINENTS */
-
-document
-    .querySelectorAll(".continent")
-    .forEach(button => {
-
-        button.addEventListener(
-            "click",
-            () => {
-
-                document
-                    .querySelectorAll(".continent")
-                    .forEach(item =>
-                        item.classList.remove(
-                            "active"
-                        )
-                    );
-
-
-                button.classList.add("active");
-
-
-                const continent =
-                    button.dataset.continent;
-
-
-                const filtered =
-                    countries.filter(
-                        country =>
-                            country.continent ===
-                            continent
-                    );
-
-
-                document.getElementById(
-                    "countriesTitle"
-                ).textContent =
-                    continent;
-
-
-                render(filtered);
-
-
-                window.scrollTo({
-                    top:document.body.scrollHeight,
-                    behavior:"smooth"
-                });
-
-            }
-        );
-
-    });
-
-
-/* ALL */
-
-document.getElementById(
-    "allBtn"
-).addEventListener(
-    "click",
-    () => {
-
-        search.value = "";
-
-
-        document
-            .querySelectorAll(".continent")
-            .forEach(item =>
-                item.classList.remove("active")
-            );
-
-
-        document.getElementById(
-            "countriesTitle"
-        ).textContent =
-            "Countries";
-
-
-        render(countries);
-
-    }
-);
-
-
-/* FAVORITES */
-
-function showFavorites(){
-
-    const favorites =
-        getFavorites();
-
-
-    const filtered =
-        countries.filter(
-            country =>
-                favorites.includes(country.name)
-        );
-
-
-    document
-        .querySelectorAll(".continent")
-        .forEach(item =>
-            item.classList.remove("active")
-        );
-
-
-    document.getElementById(
-        "countriesTitle"
-    ).textContent =
-        "Favorite Countries";
-
-
-    render(filtered);
-
-}
-
-
-document.getElementById(
-    "favoritesBtn"
-).addEventListener(
-    "click",
-    showFavorites
-);
-
-
-document.getElementById(
-    "favoritesTop"
-).addEventListener(
-    "click",
-    showFavorites
-);
-
-
-/* RANDOM */
-
-function randomCountry(){
-
-    const country =
-        countries[
-            Math.floor(
-                Math.random() *
-                countries.length
-            )
-        ];
-
-
-    openDetails(country.name);
-
-}
-
-
-document.getElementById(
-    "randomBtn"
-).addEventListener(
-    "click",
-    randomCountry
-);
-
-
-document.getElementById(
-    "randomTop"
-).addEventListener(
-    "click",
-    randomCountry
-);
-
-
-/* CLOSE DETAILS */
-
-document.getElementById(
-    "closeDetails"
-).addEventListener(
-    "click",
-    () => {
-
-        document
-            .getElementById("detailsModal")
-            .classList.remove("show");
-
-    }
-);
-
-
-/* START QUIZ */
-
-document.getElementById(
-    "startQuizBtn"
-).addEventListener(
-    "click",
-    () => {
-
-        if(!selectedCountry) return;
-
-        quizQuestions =
-            selectedCountry.quiz;
-
-        quizIndex = 0;
-
-        quizScore = 0;
-
-        document
-            .getElementById("detailsModal")
-            .classList.remove("show");
-
-        document
-            .getElementById("quizModal")
-            .classList.add("show");
-
-        document.getElementById(
-            "quizCountry"
-        ).textContent =
-            selectedCountry.name;
-
-        showQuestion();
-
-    }
-);
-
-
-/* SHOW QUESTION */
-
-function showQuestion(){
-
-    answered = false;
-
-    const question =
-        quizQuestions[quizIndex];
-
-
-    document.getElementById(
-        "quizProgress"
-    ).textContent =
-        `${quizIndex + 1} / ${quizQuestions.length}`;
-
-
-    document.getElementById(
-        "progressFill"
-    ).style.width =
-        `${((quizIndex + 1) / quizQuestions.length) * 100}%`;
-
-
-    const content =
-        document.getElementById("quizContent");
-
-
-    content.innerHTML = `
-
-        <div class="question-number">
-            QUESTION ${quizIndex + 1}
-        </div>
-
-        <div class="question-text">
-            ${question.q}
-        </div>
-
-        <div class="quiz-options">
-
-            ${question.options.map(
-                (option,index) => `
-
-                    <button
-                        class="quiz-option"
-                        data-option="${index}"
-                    >
-                        ${String.fromCharCode(65 + index)}.
-                        ${option}
-                    </button>
-
-                `
-            ).join("")}
-
-        </div>
-
-    `;
-
-
-    document
-        .querySelectorAll(".quiz-option")
-        .forEach(button => {
-
-            button.addEventListener(
-                "click",
-                () => {
-
-                    answerQuestion(
-                        button,
-                        question
-                    );
-
-                }
-            );
-
-        });
-
-}
-
-
-/* ANSWER */
-
-function answerQuestion(button,question){
-
-    if(answered) return;
-
-    answered = true;
-
-
-    const selected =
-        button.textContent
-        .replace(/^[A-D]\.\s*/,"")
-        .trim();
-
-
-    const buttons =
-        document.querySelectorAll(
-            ".quiz-option"
-        );
-
-
-    buttons.forEach(option => {
-
-        option.disabled = true;
-
-
-        const value =
-            option.textContent
-            .replace(/^[A-D]\.\s*/,"")
-            .trim();
-
-
-        if(value === question.answer){
-
-            option.classList.add("correct");
-
-        }
-
-    });
-
-
-    if(selected === question.answer){
-
-        quizScore++;
-
-        button.classList.add("correct");
-
-    }else{
-
-        button.classList.add("wrong");
-
-    }
-
-
-    const next =
-        document.createElement("button");
-
-
-    next.className = "quiz-next";
-
-    next.textContent =
-        quizIndex === quizQuestions.length - 1
-        ? "Finish Quiz"
-        : "Next Question →";
-
-
-    next.addEventListener(
-        "click",
-        () => {
-
-            if(
-                quizIndex ===
-                quizQuestions.length - 1
-            ){
-
-                showQuizResult();
-
-            }else{
-
-                quizIndex++;
-
-                showQuestion();
-
-            }
-
-        }
-    );
-
-
-    document
-        .getElementById("quizContent")
-        .appendChild(next);
-
-}
-
-
-/* RESULT */
-
-function showQuizResult(){
-
-    const total =
-        quizQuestions.length;
-
-
-    let message;
-
-
-    if(quizScore === total){
-
-        message =
-            "Perfect score! You know this country extremely well.";
-
-    }else if(quizScore >= 8){
-
-        message =
-            "Excellent work! You know a lot about this country.";
-
-    }else if(quizScore >= 5){
-
-        message =
-            "Good effort! Explore the country details and try again.";
-
-    }else{
-
-        message =
-            "Keep exploring! Read the country summary and try the quiz again.";
-
-    }
-
-
-    document.getElementById(
-        "quizContent"
-    ).innerHTML = `
-
-        <div class="quiz-result">
-
-            <div class="quiz-result-icon">
-                ${quizScore === total ? "🏆" : "🌍"}
-            </div>
-
-            <h2>
-                ${quizScore} / ${total}
-            </h2>
-
-            <p>
-                ${message}
-            </p>
-
-            <button
-                class="restart-btn"
-                id="restartQuiz"
-            >
-                🔄 Try Again
-            </button>
-
-        </div>
-
-    `;
-
-
-    document.getElementById(
-        "restartQuiz"
-    ).addEventListener(
-        "click",
-        () => {
-
-            quizIndex = 0;
-
-            quizScore = 0;
-
-            showQuestion();
-
-        }
-    );
-
-}
-
-
-/* CLOSE QUIZ */
-
-document.getElementById(
-    "closeQuiz"
-).addEventListener(
-    "click",
-    () => {
-
-        document
-            .getElementById("quizModal")
-            .classList.remove("show");
-
-    }
-);
-
-
-/* CLICK OUTSIDE MODALS */
-
-document.getElementById(
-    "detailsModal"
-).addEventListener(
-    "click",
-    event => {
-
-        if(event.target.id === "detailsModal"){
-
-            event.currentTarget
-                .classList.remove("show");
-
-        }
-
-    }
-);
-
-
-document.getElementById(
-    "quizModal"
-).addEventListener(
-    "click",
-    event => {
-
-        if(event.target.id === "quizModal"){
-
-            event.currentTarget
-                .classList.remove("show");
-
-        }
-
-    }
-);
-
-
-/* TOAST */
-
-function showToast(message){
-
-    const toast =
-        document.getElementById("toast");
-
-
-    toast.textContent = message;
-
-    toast.classList.add("show");
-
-
-    setTimeout(
-        () => {
-
-            toast.classList.remove("show");
-
-        },
-        1800
-    );
-
-}
-
-
 /* START */
 
 render(countries);
